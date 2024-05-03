@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, ul, li {
+color: aliceblue;
+font-size: 14;  
+font-family: sans-serif;
+
+}
+
+footer{
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header img {
+    max-width: 100px;
+    height: auto;
+}
+nav {
+    margin-top: 20px;
+}
