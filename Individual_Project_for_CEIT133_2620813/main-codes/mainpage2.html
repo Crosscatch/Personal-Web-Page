@@ -6,9 +6,9 @@
     <title>Burak Kala Personal Web Page</title>
     <style>
         .page_design {
-        width: 80%; /* İçeriğin genişliğini ayarlayın */
+        width: 80%; /* İçeriğin genişliği*/
         margin: 0 auto; /* İçeriği yatayda ortala */
-        padding: 20px; /* Kenar boşluğunu ayarlayın */
+        padding: 20px; /* Kenar boşluğunu ayarla */
         }
 
         body {
@@ -16,18 +16,22 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('matrix-code.gif');
+            background-image: url('../images/matrix-code.gif');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             
         }
+        h1{
+            color: aliceblue;
+            font-size: 32px;
+            font-family: sans-serif;
+        }
 
         p,
-        h1,
         ul,
-        li,
-        a {
+        li
+        {
             color: aliceblue;
             font-size: 20px;
             font-family: sans-serif;
@@ -45,17 +49,19 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            background-image: url('matrix-code.gif');
+            background-image: url('../images/matrix-code.gif');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             
         }
-
+        
         header img {
             max-width: 200px;
             height: auto;
         }
+
+        
 
         nav {
             margin-top: 20px;
@@ -79,9 +85,11 @@
 
         .about_burakkala img {
             margin-right: 20px;
-            max-width: 500px;
+            max-width: 550px;
             height: auto;
         }
+
+        
 
         .sub-title {
             margin-bottom: 10px;
@@ -95,6 +103,7 @@
             text-align: center;
         }
         
+        
     </style>
 
 </head>
@@ -104,29 +113,35 @@
     <div id="header">
 
         <header>
-            <img src="B.png" alt="Logo">
+            <img src="../images/B.png" alt="Logo">
             <nav>
                 <a href="#main-page">Main Page</a>
-                <a href="#about">About</a>
+                <a></a>
+                <a href="#about-burak">About</a>
+                <a></a>
                 <a href="#travel-blog">Travel Blog</a>
+                <a></a>
                 <a href="#contact">Contact</a>
             </nav>
         </header>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         <div class="header-text">
-            <p>Student at Computer Education & Instructional Technology</p>
-            <h1>Hello Everyone! I'm Burak. I'm a student who has different hobbies
-                <br>I'm interested in Operation Systems and Neuro-Science. I'm in METU Rowing Team.
+            <h1><strong>The First Year Student at<br>Computer Education & Instructional Technology,<br>
+            <a href="https://www.metu.edu.tr/" target="_blank">Middle East Technical University</strong></a>
             </h1>
+            <br>
+            <p>Hello Everyone! I'm Burak. I'm a student who has different hobbies.
+                <br>I'm interested in Operation Systems and Neuro-Science. I'm also in METU Rowing Team.
+            </p>
         </div>
     </div><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p id="about-burak"></p><br><br><br><br><br><br><br><br><br><br>
     
 
     <div id="about">
         <div class="about_burakkala">
-            <img src="burakkala.jpg" alt="profile photos">
+            <img src="../images/burakkala.jpg" alt="profile photos">
             <div>
                 <h1 class="sub-title">About Me</h1>
                 <p>I'm a first-year student at the Department of Computer Education & Instructional Technology, at Middle East Technical University. I'm good at setting up servers on Linux using LAMP (Linux-Apache2-MySQL-PHP) and experiencing new Linux Distributions. Nowadays, I'm trying to learn Web Development and Database Management. </p>
@@ -134,7 +149,7 @@
                     <p>My Skills and Experiences</p>
                     <ul>
                         <li><span>Travel</span><br>I traveled to four countries: Kyrgyzstan, Kazakhstan, Kosovo & Albania. I planned to travel on my second Balkan tour that includes Bosnia-Herzegovina, Montenegro, and North Macedonia. I always travel with cheap tickets because trips are more affordable for a student budget :D</li><br>
-                        <li><span>Computer Skills</span><br>I worked for a tech-consultancy company that provides consultancy on setting up servers for most ministries.</li><br>
+                        <li><span>Computer Skills</span><br>I worked for 4 months for a tech-consultancy company,<a href="https://profelis.com.tr/" target="_blank"> Profelis IT Consultancy</a> that provides consultancy on setting up servers for most ministries.</li><br>
                         <li><span>Languages</span><br>English C1<br></li>
                     </ul>
                     <p>Education</p>
@@ -147,31 +162,54 @@
             </div>
         </div>
     </div>
-    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><p id="travel"></p><br><br>
 
     <div id="travel-blog">
+        <div class="travel-blog-Introduction">
         <h1>Travel Blog</h1>
-        <a href="travelblog.html">Click Link to Go to Travel Blog</a>
+
+        <img src="../travelblog/kolsai_lake_burak.jpg" alt="Lake Photo Burak" width="auto" height="630">
+        <img src="../travelblog/kolsai_lake.jpg" alt="Lake Photo 1" width="auto" height="630"><br>
+        <h1>KOLSAI LAKE - KAZAKHSTAN</h1>
+        <p>Nestled in southeastern Kazakhstan, Kolsai Lake enchants visitors with its crystal-clear waters and majestic mountain vistas. 
+            Part of the Kolsai Lake National Park, this natural wonder offers a tranquil escape from the hustle and bustle of city life. 
+            Hiking trails winding through lush forests, opportunities for camping under the starry sky, and the chance to spot diverse wildlife make Kolsai Lake a haven for nature lovers. 
+            Whether it's kayaking on the serene waters or simply soaking in the breathtaking scenery, a visit to Kolsai Lake promises unforgettable moments amidst Kazakhstan's wilderness. </p>
+
+        </div>
+        <p>Feel free to check out my blog page where I share many moments and experiences like this one. 
+            <a href="travelblog.html" target="_blank">Burak's Travel Blog</a></p>
+ 
     </div>
-<br>
+
+
+<br><br><br><br>
     <div id="contact">
-        <h1>Contact</h1>
+        <h1>Contact</h1><br>
         <p><a href="mailto:kalaburak0@gmail.com">kalaburak0@gmail.com</a></p>
 
-        <br><a href="BURAK KALA cv self prepared-1.pdf">Download CV</a>
+        <br><br><a href="../BURAK KALA cv self prepared-1.pdf"><strong><em>Download CV</em></strong></a>
     </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
 
     <footer>
         <a href="https://github.com/Crosscatch" target="_blank">
-            <img src="github1.png" alt="Github LOGO" width="50" height="50">
-        </a>
-        <a href="https://www.linkedin.com/in/burak-kala-35492a231/" target="_blank">
-            <img src="linkedin1.png" alt="LinkedIn LOGO" width="50" height="50">
+            <img src="../images/github3.png" alt="Github LOGO" width="50" height="50">
         </a>
 
-        <a href="https://www.instagram.com/kalaburak_/" target="_blank">
-            <img src="instagram.png" alt="Instagram LOGO" width="70" height="50">
+        <span style="margin-right: 20px;"></span>
+
+        <a href="https://www.linkedin.com/in/burak-kala-35492a231/" target="_blank">
+            <img src="../images/linkedin1.png" alt="LinkedIn LOGO" width="50" height="50">
         </a>
+
+        <span style="margin-right: 15px;"></span>
+        
+        <a href="https://www.instagram.com/kalaburak_/" target="_blank">
+            <img src="../images/instagram.png" alt="Instagram LOGO" width="65" height="50">
+        </a>
+
         <p>&copy; 2024 Burak Kala Personal Web Page</p>
     </footer>
 </div>
